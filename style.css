@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Azeret Mono;
+}
+
+header{
+    width: 1440px;
+    height: 756px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 155px;
+}
+nav h1{
+    color: rgb(13, 19, 33);
+font-size: 28px;
+font-weight: 800;
+}
+nav a{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 17px 25px;
+
+}
+
+.banner{
+    background-image: url('./assets/Hero-bg.png');
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 26px;
+}
+
+.banner h1{
+color: rgb(13, 19, 33);
+font-size: 48px;
+font-weight: 800;
+margin: 32px auto 24px auto;
+text-align: center;
+}
+
+.banner p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.banner a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px;
+}
+
+.web-dev-reason{
+    width: 1140px;
+    height: 1395px;
+    margin: 74px auto 0 auto;
+    border: 1px solid black;
+    padding: 80px 97px;
+}
+
+.top-web-dev-reason h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.top-web-dev-reason p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.block1, .block2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px;
+
+}
+
+.block-container h1{
+    color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
