@@ -70,6 +70,7 @@ text-align: center;
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 32px;
+    padding: 0 210px;
 }
 
 .banner a{
@@ -82,12 +83,16 @@ text-align: center;
     text-decoration: none;
 }
 
+
+/*------Why Web Development--------*/
+
 .web-dev-reason{
     width: 1140px;
     height: 1395px;
     margin: 74px auto 0 auto;
-    border: 1px solid black;
     padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
 }
 
 .top-web-dev-reason h1{
@@ -106,20 +111,29 @@ text-align: center;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
-    margin-top: 24px;
+    margin: 24px 0 48px 0;
 }
 
 .block1, .block2{
     display: flex;
-    align-items: center;
+    /* align-items:; */
     justify-content: space-between;
     padding: 48px;
     gap: 120px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .block2{
     gap: 50px;
+    background: linear-gradient( to right, rgba(255, 255, 255, 0),rgb(255, 255, 255));
 }
-
+.block-container{
+    width: 946px;
+    height: 1072px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
 .block-container h1{
     color: rgba(13, 19, 33, 0.7);
 font-size: 24px;
@@ -153,3 +167,40 @@ margin-bottom: 40px;
     padding: 12px 20px;
     text-decoration: none;
 }
+
+.inspiration{
+    width: 1140px;
+    height: 777px;
+    margin: 88px auto 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.inspiration-content{
+    padding: 0 144px 48px 144px;
+}
+.inspiration-content h1{
+    color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+}
+
+.inspiration-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px 144px;
+    margin-top: 24px ;
+}
+
+.inspiration-video iframe{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+
