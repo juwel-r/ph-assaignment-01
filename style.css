@@ -52,6 +52,8 @@ nav a{
     flex-direction: column;
     align-items: center;
     padding-top: 26px;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 .banner h1{
@@ -386,7 +388,53 @@ margin-right: 24px;
     text-decoration-line: underline;
 }
 
+.support{
+    width: 1140px;
+    height: 314px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.546),rgba(0, 0, 0, 0.459)), url('./assets/handshake.jpg');
+    border-radius: 16px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 44px auto 0 auto;
+    background-position: center;
+    padding: 64px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.support h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.support p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 16px 0 24px 0;
+    line-height: 26px;
+}
+.support input[type="text"]{
+    color: rgba(13, 19, 33, 0.4);
+    text-align: left;
+    width: 548px;
+    height: 57px;
+    padding: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
 
+}
+
+.support input[type="submit"]{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
 
 
 
