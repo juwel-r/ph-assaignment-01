@@ -79,6 +79,7 @@ text-align: center;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     padding: 21px 24px;
+    text-decoration: none;
 }
 
 .web-dev-reason{
@@ -113,7 +114,10 @@ text-align: center;
     align-items: center;
     justify-content: space-between;
     padding: 48px;
-
+    gap: 120px;
+}
+.block2{
+    gap: 50px;
 }
 
 .block-container h1{
@@ -123,4 +127,29 @@ font-weight: 700;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
+padding: 10px 0 16px 0;
+width: 85%;
+}
+.block-container p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 40px;
+}
+.block-container a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    text-decoration: none;
 }
