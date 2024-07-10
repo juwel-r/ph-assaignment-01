@@ -415,6 +415,7 @@ margin-right: 24px;
     line-height: 26px;
 }
 .support input[type="text"]{
+    font-family: Azeret Mono;
     color: rgba(13, 19, 33, 0.4);
     text-align: left;
     width: 548px;
@@ -428,6 +429,7 @@ margin-right: 24px;
 
 .support input[type="submit"]{
     color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     width: 120px;
@@ -436,9 +438,70 @@ margin-right: 24px;
     background: rgb(255, 255, 255);
 }
 
+/*------ Footer styele--------*/
+footer .social{
+    color: aliceblue;
+    margin: 50px auto 0  auto;
+    width: 1440px;
+    height: 200px;  
+    background: #000000;
+    padding:30px 170px;
+   
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(115, 115, 115, 0.561);
+}
+
+
+.footer-content .address{
+    display: flex;
+    width: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+ } 
+.footer-content .address i{
+   font-size: 35px;
+   padding-right: 10px;
+ }
+.footer-content .address p{
+  line-height: 26px;
+ }
 
 
 
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    width: 33.33%;
+}
+.footer-icon{
+    width: 35px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 0 rgb(127, 156, 161);
+}
 
 
+
+footer .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 33.33%;
+    padding-left: 130px;
+}
+
+.social hr{
+    background-color:  rgb(255, 0, 0);
+}
+footer #copyright{
+    padding-top: 20px;
+    text-align: center;
+}
 
