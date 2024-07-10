@@ -449,6 +449,7 @@ footer .social{
    
 }
 .footer-content{
+    width: 1140px;
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -465,8 +466,8 @@ footer .social{
     width: 33.33%;
  } 
 .footer-content .address i{
-   font-size: 35px;
-   padding-right: 10px;
+   font-size: 30px;
+   padding-right: 15px;
  }
 .footer-content .address p{
   line-height: 26px;
@@ -505,3 +506,26 @@ footer #copyright{
     text-align: center;
 }
 
+.btn-hover{
+    transition: .3s;
+}
+.btn-hover:hover{
+    box-shadow: 0 0 20px 0 rgba(128, 128, 128, 0.692);
+    opacity: .8;
+    color: rgba(139, 135, 241, 0.899);
+}
+.txt-hover{
+    transition: .3s;
+}
+.txt-hover:hover{
+    text-shadow: 0 0 20px rgba(100, 100, 100, 0.866);
+    opacity: .8;
+    color: rgb(125, 122, 236);
+}
+
+footer img{
+    transition: .3s;
+}
+footer img:hover{
+   opacity: .7;
+}
