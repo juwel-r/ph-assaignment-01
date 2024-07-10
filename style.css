@@ -443,9 +443,12 @@ footer .social{
     color: aliceblue;
     margin: 50px auto 0  auto;
     width: 1440px;
-    height: 200px;  
-    background: #000000;
+    height: 170px;  
+    background: linear-gradient(to bottom, white,black, black );
+    border-radius: 10px 10px 0 0;
     padding:30px 170px;
+    text-shadow: 0px 0px 100px rgb(0, 0, 0);
+   
    
 }
 .footer-content{
@@ -454,7 +457,8 @@ footer .social{
     justify-content: space-between;
     gap: 40px;
     padding: 15px 0;
-    border-bottom: 1px solid rgba(115, 115, 115, 0.561);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.347);
+    
 }
 
 
@@ -485,7 +489,7 @@ footer .social{
 .footer-icon{
     width: 35px;
     border-radius: 50%;
-    box-shadow: 0 0 20px 0 rgb(127, 156, 161);
+    box-shadow: 0 -5px 20px 0 rgb(119, 141, 143);
 }
 
 
@@ -498,9 +502,7 @@ footer .contact{
     padding-left: 130px;
 }
 
-.social hr{
-    background-color:  rgb(255, 0, 0);
-}
+
 footer #copyright{
     padding-top: 20px;
     text-align: center;
@@ -527,5 +529,5 @@ footer img{
     transition: .3s;
 }
 footer img:hover{
-   opacity: .7;
+   opacity: .6;
 }
